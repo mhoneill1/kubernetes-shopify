@@ -93,7 +93,7 @@ Follow the steps below to configure a Redis cache using data stored in a ConfigM
         kubectl describe configmap/example-redis-config
         ```
 
-        Reviw the output and confirm that the `redis-config` key is empty, since it was blank in the `example-redis-config` ConfigMap.
+        Review the output and confirm that the `redis-config` key is empty, since it was blank in the `example-redis-config` ConfigMap.
 
         ```shell
         Name:         example-redis-config
